@@ -1,0 +1,261 @@
+/* Body */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Lexend Peta", sans-serif;
+    background-color: black;
+    color: white;
+    font-size: 15px;
+}
+
+/* Header */
+header {
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    background-color: black;
+    top: 0;
+    z-index: 1000;
+    font-family: "Alumni Sans Pinstripe", sans-serif;
+}
+
+header h1 {
+    margin: 10px;
+    font-size: 50px;
+    color: #4df227;
+}
+
+/* Nav Bar */
+nav {
+    text-align: center;
+    font-family: "PT Sans", sans-serif;
+    font-size: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 10px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: rgba(23, 105, 10, 0.2);
+    transition: background-color 0.3s;
+}
+
+nav a:hover {
+    background-color: #4df227;
+    color: black;
+}
+
+/* Responsive Nav for Mobile */
+@media (max-width: 768px) {
+    nav a {
+        display: block;
+        margin: 5px 0;
+    }
+}
+
+/* Sections */
+section {
+    padding: 20px;
+    margin: auto;
+    max-width: 1200px;
+}
+
+/* Section Headings */
+section h2 {
+    font-family: "Barlow Condensed", sans-serif;
+    font-size: 30px;
+    color: #4df227;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* About Section */
+#about-1, #about {
+    text-align: center;
+}
+
+/* titile */
+
+#about-1 p {
+    margin: 1px;
+    padding: 1px;
+    font-size: 18px;
+}
+
+#title-1{
+    display: flex;
+    justify-content: center;
+}
+
+/*  title heading */
+.bracket {
+    color: red;
+}
+
+/* Responsive Skills */
+@media (max-width: 768px) {
+    #title-1 {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+
+
+/* Services */
+.p1{
+    color: red;
+}
+
+/* Skills Section */
+#skills {
+    text-align: center;
+}
+
+.skill-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.skill-item {
+    border: 2px solid #4df227;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 14px;
+    transition: background 0.3s;
+}
+
+.skill-item:hover {
+    background: #4df227;
+    color: black;
+}
+
+/* Responsive Skills */
+/* @media (max-width: 768px) {
+    .skill-list {
+        flex-direction: column;
+        align-items: center;
+    }
+} */
+
+/* Certifications Section */
+#certifications {
+    text-align: center;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 1000px;
+}
+
+.quiz-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.quiz-box {
+    flex: 1 1 300px; /* Flexbox for better responsiveness */
+    max-width: 300px;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: left;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.quiz-box ul li {
+    font-size: 15px;
+    margin-bottom: 10px;
+    border-left: 3px solid #4df227;
+    padding-left: 10px;
+    color: blue;
+}
+
+.quiz-box ul li:hover {
+    color: #fff;
+    font-size: 16px;
+}
+
+/* Projects Section */
+#projects .project-card {
+    border: 2px solid #4df227;
+    border-radius: 10px;
+    width: 300px;
+    height: 150px;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s;
+    display: inline-block;
+    margin: 10px;
+    overflow: hidden;
+}
+
+#projects .project-card:hover {
+    transform: translateY(-10px);
+}
+
+/* Responsive Projects */
+@media (max-width: 768px) {
+    #projects .project-card {
+        width: 90%;
+        margin: 10px auto;
+    }
+}
+
+/* Contact Section */
+#contact {
+    text-align: center;
+}
+
+#resume-button{
+    margin-top: 30px;
+}
+#resume-button a {
+    background-color: #4df227;
+    color: black;
+    padding: 10px 20px;
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+#resume-button a:hover {
+    background-color: white;
+    color: black;
+}
+
+.social-icons a {
+    margin: 0 15px;
+    font-size: 30px;
+    color: #4df227;
+    transition: color 0.3s;
+}
+
+.social-icons a:hover {
+    color: white;
+}
+
+/* Footer */
+
+footer {
+    padding: 20px 0;
+    position: sticky;
+    bottom: 0;
+    margin-left: 10px;
+    width: 20%;
+
+}
+
+footer h1 {
+    font-family: "Alumni Sans Pinstripe", sans-serif;
+    font-size: 30px;
+    margin: 0;
+    color: #4df227;
+
+}
